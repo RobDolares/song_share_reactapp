@@ -59,42 +59,51 @@ input.form-control {
   text-align: center;
 }
 
+
 /*** Placeholder Color ***/
 
 input.form-control::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    font-size: 0.9em;
-    color: #5F104E;
+  /* Chrome/Opera/Safari */
+  font-size: 0.9em;
+  color: #5F104E;
 }
+
 input.form-control::-moz-placeholder {
   /* Firefox 19+ */
   font-size: 0.9em;
   color: #5F104E;
 }
+
 input.form-control:-ms-input-placeholder {
   /* IE 10+ */
   font-size: 0.9em;
   color: #5F104E;
 }
+
 input.form-control:-moz-placeholder {
   /* Firefox 18- */
   font-size: 0.9em;
   color: #5F104E;
 }
 
+
 /*** Remove placeholder on focus ***/
+
 input.form-control:focus::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    color: transparent;
+  /* Chrome/Opera/Safari */
+  color: transparent;
 }
+
 input.form-control:focus::-moz-placeholder {
   /* Firefox 19+ */
   color: transparent;
 }
+
 input.form-control:focus:-ms-input-placeholder {
   /* IE 10+ */
   color: transparent;
 }
+
 input.form-control:focus:-moz-placeholder {
   /* Firefox 18- */
   color: transparent;
@@ -105,9 +114,10 @@ input.form-control:focus:-moz-placeholder {
   margin-bottom: 0;
 }
 
+
 /*** Notes Section ***/
 
-#notes-input{
+#notes-input {
   height: 100px;
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -118,39 +128,47 @@ input.form-control:focus:-moz-placeholder {
 }
 
 #notes-input::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    font-size: 0.9em;
-    color: #5F104E;
+  /* Chrome/Opera/Safari */
+  font-size: 0.9em;
+  color: #5F104E;
 }
+
 #notes-input::-moz-placeholder {
   /* Firefox 19+ */
   font-size: 0.9em;
   color: #5F104E;
 }
+
 #notes-input:-ms-input-placeholder {
   /* IE 10+ */
   font-size: 0.9em;
   color: #5F104E;
 }
+
 #notes-input:-moz-placeholder {
   /* Firefox 18- */
   font-size: 0.9em;
   color: #5F104E;
 }
 
+
 /*** Remove placeholder on focus ***/
+
 #notes-input:focus::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    color: transparent;
+  /* Chrome/Opera/Safari */
+  color: transparent;
 }
+
 #notes-input:focus::-moz-placeholder {
   /* Firefox 19+ */
   color: transparent;
 }
+
 #notes-input:focus:-ms-input-placeholder {
   /* IE 10+ */
   color: transparent;
 }
+
 #notes-input:focus:-moz-placeholder {
   /* Firefox 18- */
   color: transparent;
@@ -174,6 +192,7 @@ input.form-control:focus:-moz-placeholder {
   margin-top: 20px;
 }
 
+
 /*************  PlayListItem  ************/
 
 .list-group-item {
@@ -183,6 +202,7 @@ input.form-control:focus:-moz-placeholder {
 li.borderless {
   border: none;
   padding: 1px;
+  text-align: left;
 }
 
 ul.card-block.list-group {
@@ -190,9 +210,11 @@ ul.card-block.list-group {
   padding-left: 15px;
   margin: 5px;
   border-radius: 3px;
+  color: #390039;
 }
 
 .list-group-item span {
+  padding-right: 8px;
   color: white;
 }
 
