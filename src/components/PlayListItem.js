@@ -3,19 +3,27 @@ import React from 'react'
 const PlayListItem = (props) => {
 
   return (
-    <li className="list-group-item">
-      <ul>
-        <li>
-          <div>User: {props.song.userName}</div>
+    <li className="card-block list-group col-lg-6 col-md-6">
+      <ul className="list-group card-block">
+        <li className="list-group-item borderless">
+          <div>
+            <span>User:</span>
+            {props.song.userName}</div>
         </li>
-        <li>
-          <div>Artist/Band: {props.song.songArtist}</div>
+        <li className="list-group-item borderless">
+          <div>
+            <span>Artist/Band:</span>
+            {props.song.songArtist}</div>
         </li>
-        <li>
-          <div>Title: {props.song.songTitle}</div>
+        <li className="list-group-item borderless">
+          <div>
+            <span>Title:</span>
+            {props.song.songTitle}</div>
         </li>
-        <li>
-          <div>Notes: {props.song.songNotes}</div>
+        <li className="list-group-item borderless">
+          <div>
+            <span>Notes:</span>
+            {props.song.songNotes}</div>
         </li>
       </ul>
     </li>

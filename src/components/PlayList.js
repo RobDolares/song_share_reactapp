@@ -34,17 +34,17 @@ export default class PlayList extends Component {
 
   render() {
 
-      let songlist = this.state.songs.map((song) => {
-        return (
-          <PlayListItem key={song._id} song={song} />
-        )
-      })
+    let songlist = this.state.songs.map((song) => {
+      return (<PlayListItem key={song._id} song={song}/>)
+    })
 
-      return (
-        <div className="col-lg-6">
-          <button className="btn" onClick={this.fetchData}>Update</button>
+    return (
+      <div className="row card-block col-lg-8">
+        <button id="update-btn" className="btn btn-md card-block col-lg-4 offset-lg-4 col-md-4 offset-md-4 col-sm-4 offset-sm-4 col-xs-4 offset-xs-4 " onClick={this.fetchData}>Update Public Feed</button>
+        <div className="row">
           {songlist}
         </div>
-      )
+      </div>
+    )
   }
 }
