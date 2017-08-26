@@ -6,4 +6,4 @@
 
 * Use mockup for direction, but customize styles as you see fit
 
-![MockUp](/public/song_share_mockup.png)
+![MockUp](/song_share_mockup.png)
