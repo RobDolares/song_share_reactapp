@@ -6,4 +6,4 @@
 
 * Use mockup for direction, but customize styles as you see fit
 
-![alt text](https://github.com/RobDolares/song_share_reactapp/tree/master/public/song_share_mockup.png)
+[![MockUp](/public/song_share_mockup.png)]
