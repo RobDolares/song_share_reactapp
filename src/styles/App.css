@@ -59,6 +59,10 @@ input.form-control {
   text-align: center;
 }
 
+.form-group input:focus {
+  background-color: #BA7AAC;
+}
+
 
 /*** Placeholder Color ***/
 
@@ -89,7 +93,7 @@ input.form-control:-moz-placeholder {
 
 /*** Remove placeholder on focus ***/
 
-input.form-control:focus::-webkit-input-placeholder {
+input.form-group:focus::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: transparent;
 }
