@@ -93,7 +93,7 @@ input.form-control:-moz-placeholder {
 
 /*** Remove placeholder on focus ***/
 
-input.form-group:focus::-webkit-input-placeholder {
+input.form-control:focus::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: transparent;
 }
